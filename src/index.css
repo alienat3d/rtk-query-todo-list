@@ -69,6 +69,11 @@ form label {
   left: -10000px;
 }
 
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  text-decoration-color: dimgrey;
+}
+
 .new-todo {
   width: 100%;
   padding-right: 30px;
